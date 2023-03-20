@@ -1,0 +1,1 @@
+<center><embed src="../img/CV.pdf" height="1280px" width="920px"></center>
