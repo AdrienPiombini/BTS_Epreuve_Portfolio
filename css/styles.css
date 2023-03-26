@@ -82,6 +82,7 @@
     font-size: 20px;
     text-align: center;
     font-size: 13px;
+    margin-top: 10px;
   }
 
     footer div{
@@ -96,4 +97,110 @@
     font-family:  Arial, Helvetica, sans-serif
     }
 
+  .projet{
 
+    margin:75px ;
+
+  }
+
+
+
+.projet img{
+  float: right;
+  cursor: pointer;
+  
+}
+
+ .projet img:hover{
+  transition: 1s;
+  height: 410px;
+  width: 710px;
+}
+
+
+.projet a img {
+  float: none;
+}
+
+.projet a:hover img {
+  transition: none;
+  height: 75px;
+  width: 150px;
+}
+
+
+.projet p{
+  font-size: 25px;
+}
+
+
+.imgProfil{
+  margin: 10px;
+  margin-left: 2  0%;
+}
+
+
+ul {
+  list-style-type: none;
+  text-align: center;
+  margin: 0;
+  padding: 0;
+}
+
+li {
+  display: inline-block;
+  padding: 10px;
+  background-color: #fff;
+  color: #000;
+  border-radius: 5px;
+  margin-top: 10px;
+  margin-right: 10px;
+  margin-bottom: 10px;
+}
+
+li:hover {
+  border-radius: 20px;
+  transition: 0.5s ease-in-out;
+  color: orange;
+
+}
+
+li:last-child {
+  margin-right: 0;
+}
+
+p {
+  color: #ffffff; /* Couleur de texte blanche */
+  font-size: 16px; /* Taille de police */
+  line-height: 1.5; /* Hauteur de ligne */
+  margin: 10px 0; /* Marges supérieure et inférieure */
+  padding: 0 20px; /* Espacement intérieur gauche et droit */
+  text-align: justify; /* Alignement justifié */
+}
+
+
+
+
+h5{
+  font-size: 18px;
+}
+
+
+.veille img {
+  transition: 1s ease-in-out;
+  width: 30%;
+  height: 300px;
+  cursor: pointer;
+}
+
+.veille img:hover {
+  transition: 1s ease-in-out;
+  width: 33%;
+  height: 350px;
+}
+
+.veille img:not(:hover) {
+  transition: 1s ease-out;
+  width: 30%;
+  height: 300px;
+}
