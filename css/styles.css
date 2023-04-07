@@ -130,7 +130,8 @@
 
 
 .projet p{
-  font-size: 25px;
+  font-size: 18px;
+  margin-right: 0px;
 }
 
 
@@ -176,6 +177,7 @@ p {
   margin: 10px 0; /* Marges supérieure et inférieure */
   padding: 0 20px; /* Espacement intérieur gauche et droit */
   text-align: justify; /* Alignement justifié */
+  margin-right: 200px; 
 }
 
 
