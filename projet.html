@@ -6,9 +6,11 @@
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
   <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-EVSTQN3/azprG1Anm3QDgpJLIm9Nao0Yz1ztcQTwFspd3yD65VohhpuuCOmLASjC" crossorigin="anonymous">
   <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/js/bootstrap.bundle.min.js" integrity="sha384-MrcW6ZMFYlzcLA8Nl+NtUVF0sA7MsXsP1UyJoMp4YLEuNSfAP+JcXn/tWtIaxVXM" crossorigin="anonymous"></script>
+  <script src="https://code.jquery.com/jquery-3.6.0.min.js"></script>
   <title>PORTFOLIO ADRIEN</title>
   <!-- <link rel="stylesheet" href="flex.css"> -->
   <link rel="stylesheet" href="css/styles.css">
+<script src="js/jquery.js"></script>
 </head>
 <body>
     <nav class="navigationbar" style="z-index: 10;">
@@ -36,24 +38,31 @@
              </div>
                <img src="img/filelec.png" alt="" height="400px" width="700px" id="filelecImg">
             </div>
-
-
             <div id="clientLeger" class="carousel slide" data-bs-ride="carousel">
                 <div class="carousel-inner">
                   <div class="carousel-item active">
-                    <img src="img/produit_clientLeger.png" alt="" height="300px" width="500px" style="margin-left: 35%;" id="filelecImg">
+                    <img src="img/produit_clientLeger.png" alt="" height="300px" width="500px" style="margin-left: 35%;" id="imgCaroussel";>
                   </div>
                   <div class="carousel-item">
-                    <img src="img/apropos_clientLeger.png" alt="" height="300px" width="500px" style="margin-left: 35%;" id="filelecImg">
+                    <img src="img/apropos_clientLeger.png" alt="" height="300px" width="500px" style="margin-left: 35%;" id="imgCaroussel">
                   </div>
                   <div class="carousel-item">
-                    <img src="img/commande_clientLeger.png" alt="" height="300px" width="500px" style="margin-left: 35%;" id="filelecImg">
+                    <img src="img/commande_clientLeger.png" alt="" height="300px" width="500px" style="margin-left: 35%;" id="imgCaroussel">
                   </div>
                   <div class="carousel-item">
-                    <img src="img/inscription_ClientLeger.png" alt="" height="300px" width="500px" style="margin-left: 35%;" id="filelecImg">
+                    <img src="img/code_clientLeger.png" alt="" height="300px" width="500px" style="margin-left: 35%;" id="imgCaroussel">
                   </div>
                   <div class="carousel-item">
-                    <img src="img/filelec.png" alt="" height="300px" width="500px" style="margin-left: 35%;" id="filelecImg">
+                    <img src="img/inscription_ClientLeger.png" alt="" height="300px" width="500px" style="margin-left: 35%;" id="imgCaroussel">
+                  </div>
+                  <div class="carousel-item">
+                    <img src="img/gant.png" alt="" height="300px" width="500px" style="margin-left: 35%;" id="imgCaroussel">
+                  </div>
+                  <div class="carousel-item">
+                    <img src="img/trello.png" alt="" height="300px" width="500px" style="margin-left: 35%;" id="imgCaroussel">
+                  </div>
+                  <div class="carousel-item">
+                    <img src="img/filelec.png" alt="" height="300px" width="500px" style="margin-left: 35%;" id="imgCaroussel">
                   </div>
                 </div>
                 <button class="carousel-control-prev" type="button" data-bs-target="#clientLeger" data-bs-slide="prev">
@@ -80,13 +89,13 @@
             <div id="clientlourd" class="carousel slide" data-bs-ride="carousel">
                 <div class="carousel-inner">
                   <div class="carousel-item active">
-                    <img src="img/intervention_ClientLourd.png" alt="" height="300px" width="500px" style="margin-left: 35%;" id="filelecImg">
+                    <img src="img/intervention_ClientLourd.png" alt="" height="300px" width="500px" style="margin-left: 35%;" id="imgCaroussel">
                   </div>
                   <div class="carousel-item">
-                    <img src="img/profil_ClientLourd.png" alt="" height="300px" width="500px" style="margin-left: 35%;" id="filelecImg">
+                    <img src="img/profil_ClientLourd.png" alt="" height="300px" width="500px" style="margin-left: 35%;" id="imgCaroussel">
                   </div>
                   <div class="carousel-item">
-                    <img src="img/user_Clientlouird.png" alt="" height="300px" width="500px" style="margin-left: 35%;" id="filelecImg">
+                    <img src="img/user_Clientlouird.png" alt="" height="300px" width="500px" style="margin-left: 35%;" id="imgCaroussel">
                   </div>
                   
                 </div>
@@ -123,7 +132,7 @@
 
             <div class="projet">
                 <div style="float: left; padding-top: 150px;" >
-                <p>Mon principal projet projet professionnel consiste à coder des procédures <br>stockées en PL/SQL.</p>
+                <p>Mon principal projet  professionnel consiste à coder des procédures <br>stockées en PL/SQL.</p>
                 <p> C'est procédure stocké permettent de corriger automatiquement <br> certaines anomalies</p> 
              </div>
                 <img src="img/sqlserver.png" alt="" height="400px" width="700px">
@@ -132,22 +141,16 @@
             <div id="projetFFO" class="carousel slide" data-bs-ride="carousel">
                 <div class="carousel-inner">
                   <div class="carousel-item active">
-                    <img src="img/codeProcedureLonchamp.png" alt="" height="300px" width="500px" style="margin-left: 35%;" id="filelecImg">
+                    <img src="img/codeProcedureLonchamp.png" alt="" height="300px" width="500px" style="margin-left: 35%;" id="imgCaroussel">
                   </div>
                   <div class="carousel-item">
-                    <img src="img/clientLourd.png" alt="" height="300px" width="500px" style="margin-left: 35%;" id="filelecImg">
+                    <img src="img/doc.png" alt="" height="300px" width="500px" style="margin-left: 35%;" id="imgCaroussel">
                   </div>
                   <div class="carousel-item">
-                    <img src="img/calculatrice.png" alt="" height="300px" width="500px" style="margin-left: 35%;" id="filelecImg">
+                    <img src="img/dossier.png" alt="" height="300px" width="500px" style="margin-left: 35%;" id="imgCaroussel">
                   </div>
                   <div class="carousel-item">
-                    <img src="img/calculatrice.png" alt="" height="300px" width="500px" style="margin-left: 35%;" id="filelecImg">
-                  </div>
-                  <div class="carousel-item">
-                    <img src="img/calculatrice.png" alt="" height="300px" width="500px" style="margin-left: 35%;" id="filelecImg">
-                  </div>
-                  <div class="carousel-item">
-                    <img src="img/calculatrice.png" alt="" height="300px" width="500px" style="margin-left: 35%;" id="filelecImg">
+                    <img src="img/dossiertest.png" alt="" height="300px" width="500px" style="margin-left: 35%;" id="imgCaroussel">
                   </div>
                   
                 </div>
@@ -160,9 +163,52 @@
                   <span class="visually-hidden">Next</span>
                 </button>
               </div>
+
+            
+              <div class="projet">
+                <div style="float: left; padding-top: 150px;" >
+                <p>Création de logs pour analyser les jobs en production.</p>
+                <p>  Mise à jour des job SQLServerAgent afin de tracer leurs efficacité <br> et leurs utilité en productions.</p> 
+                <a href="https://github.com/AdrienPiombini/calculatrice" target="_blank">Code source : <img src="img/git.png" alt="" height="75px" width="150px" style="vertical-align: middle;"></a>
+             </div>
+                <img src="img/calculatrice.png" alt="" height="400px" width="700px">
+            </div>
+
+            <div id="logJob" class="carousel slide" data-bs-ride="carousel">
+              <div class="carousel-inner">
+                <div class="carousel-item active">
+                  <img src="img/codeProcedureLonchamp.png" alt="" height="300px" width="500px" style="margin-left: 35%;" id="imgCaroussel">
+                </div>
+                <div class="carousel-item">
+                  <img src="img/clientLourd.png" alt="" height="300px" width="500px" style="margin-left: 35%;" id="imgCaroussel">
+                </div>
+                <div class="carousel-item">
+                  <img src="img/calculatrice.png" alt="" height="300px" width="500px" style="margin-left: 35%;" id="imgCaroussel">
+                </div>
+                <div class="carousel-item">
+                  <img src="img/calculatrice.png" alt="" height="300px" width="500px" style="margin-left: 35%;" id="imgCaroussel">
+                </div>
+                <div class="carousel-item">
+                  <img src="img/calculatrice.png" alt="" height="300px" width="500px" style="margin-left: 35%;" id="imgCaroussel">
+                </div>
+                <div class="carousel-item">
+                  <img src="img/calculatrice.png" alt="" height="300px" width="500px" style="margin-left: 35%;" id="imgCaroussel">
+                </div>
+                
+              </div>
+              <button class="carousel-control-prev" type="button" data-bs-target="#logJob" data-bs-slide="prev">
+                <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+                <span class="visually-hidden">Previous</span>
+              </button>
+              <button class="carousel-control-next" type="button" data-bs-target="#logJob" data-bs-slide="next">
+                <span class="carousel-control-next-icon" aria-hidden="true"></span>
+                <span class="visually-hidden">Next</span>
+              </button>
+            </div>
+
               <br><br><br><br>
 
-<center><a href="img/tableau.pdf" target="_blank"> <h2>Tableau de Compétences </h2></a></center>
+<center><a href="img/tableau_competence.pdf" target="_blank"> <h2>Tableau de Compétences </h2></a></center>
 
 </div>
 
@@ -185,3 +231,4 @@
 <div><a href="">© 2022 PIOMBINI Adrien • All Rights Reserved</a></div>
 </footer>
 </body>
+
